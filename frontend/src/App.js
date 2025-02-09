@@ -115,7 +115,7 @@ const CustomerSegmentation = () => {
 
       {error && <p>{error}</p>}
 
-      <svg ref={svgRef}></svg>
+      <svg ref={svgRef}></svg><label>Footer</label>
     </div>
   );
 };
